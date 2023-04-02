@@ -10,28 +10,15 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/buttonFirst"
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="70dp"
+        android:background="@drawable/separator"
         app:layout_constraintTop_toTopOf="parent"
-        android:text="1rd item" />
+        android:text="purchase" />
 
-    <Button
-        android:id="@+id/buttonSecond"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:text="2rd item"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFirst" />
-    <Button
-        android:id="@+id/buttonThird"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:text="2rd item"
-        app:layout_constraintTop_toBottomOf="@+id/buttonSecond"
-        />
+   =
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
